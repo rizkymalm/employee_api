@@ -1,0 +1,26 @@
+{
+  "name": "employee_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkymalm/employee_api.git"
+  },
+  "author": "RM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizkymalm/employee_api/issues"
+  },
+  "homepage": "https://github.com/rizkymalm/employee_api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.4"
+  }
+}
