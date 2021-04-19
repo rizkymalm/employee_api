@@ -1,3 +1,4 @@
+const db = require("../db/dbs")
 require("../db/models/user.model")
 exports.getListUser = async function(req,res){
     var getEmployee = await getAllEmployee()
